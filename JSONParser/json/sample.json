@@ -1,0 +1,117 @@
+{
+    "id": 1879781187,
+    "domainId": 123,
+    "firstActiveTime": "2015-02-16T07:15:24.000+0000",
+    "lastActiveTime": "2015-02-16T07:18:59.000+0000",
+    "flowTimeSinceStart": 300047,
+    "activeDuration": 215000,
+    "object": {
+        "ipAddress": "10.203.1.66",
+        "natAddress": null,
+        "name": null,
+        "userName": null,
+        "macAddress": null,
+        "macVendor": null,
+        "portProtocol": {
+            "protocol": "UDP",
+            "port": 2055
+        },
+        "percentTransferBytes": 0,
+        "transferBytes": 0,
+        "transferPackets": 0,
+        "transferByteRate": 0,
+        "transferPacketRate": 0,
+        "orientation": "server",
+        "country": {
+            "code": "XR",
+            "name": "RFC 1918",
+            "label": "RFC 1918",
+            "sublabel": null
+        },
+        "hostGroups": [
+            {
+                "domainId": 123,
+                "editable": false,
+                "id": 65534,
+                "location": "INSIDE",
+                "name": "Catch All",
+                "path": [
+                    "Inside Hosts"
+                ],
+                "idPath": [
+                    1,
+                    65534
+                ]
+            }
+        ],
+        "trustSecId": -1,
+        "trustSecName": null,
+        "formattedPortProtocol": "2055/UDP",
+        "userNames": []
+    },
+    "peer": {
+        "ipAddress": "10.100.104.2",
+        "natAddress": null,
+        "name": null,
+        "userName": null,
+        "macAddress": null,
+        "macVendor": null,
+        "portProtocol": {
+            "protocol": "UDP",
+            "port": 53656
+        },
+        "percentTransferBytes": 100,
+        "transferBytes": 8291286,
+        "transferPackets": 5678,
+        "transferByteRate": 38564.1209302326,
+        "transferPacketRate": 26.4093023255814,
+        "orientation": "client",
+        "country": {
+            "code": "XR",
+            "name": "RFC 1918",
+            "label": "RFC 1918",
+            "sublabel": null
+        },
+        "hostGroups": [
+            {
+                "domainId": 123,
+                "editable": false,
+                "id": 65534,
+                "location": "INSIDE",
+                "name": "Catch All",
+                "path": [
+                    "Inside Hosts"
+                ],
+                "idPath": [
+                    1,
+                    65534
+                ]
+            }
+        ],
+        "trustSecId": -1,
+        "trustSecName": null,
+        "formattedPortProtocol": "53656/UDP",
+        "userNames": []
+    },
+    "connection": {
+        "application": {
+            "id": 170,
+            "name": "Undefined UDP"
+        },
+        "service": {
+            "id": 38,
+            "name": "netflow",
+            "message": null
+        },
+        "transferBytes": 8291286,
+        "transferPackets": 5678,
+        "transferByteRate": 38564.1209302326,
+        "transferPacketRate": 26.4093023255814,
+        "tcpConnections": 0,
+        "objectPeerRatio": 0,
+        "roundTripTime": 0,
+        "serverResponseTime": 0,
+        "subjectPayload": null,
+        "peerPayload": null
+    }
+}
